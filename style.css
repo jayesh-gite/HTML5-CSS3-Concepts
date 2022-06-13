@@ -4,6 +4,12 @@ h3,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
+}
+h1,
+h2,
+h3 {
+  color: #1098ad;
 }
 h1 {
   font-size: 26px;
@@ -57,4 +63,11 @@ article header p {
 
 .li-style {
   list-style: none;
+}
+.main-header {
+  background-color: #cecece;
+}
+aside {
+  background-color: #ebe8e8;
+  border: 5px solid #1098ad;
 }
