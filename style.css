@@ -71,3 +71,44 @@ aside {
   background-color: #ebe8e8;
   border: 5px solid #1098ad;
 }
+
+/* .first-li {
+  font-weight: bold;
+} */
+
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+/* li:nth-child(2) {
+  color: red; 
+}
+article p:first-child {
+  color: red;
+  will not work 
+}
+article p:last-child {
+  color: rgb(186, 208, 43);
+} */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  color: brown;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+/*LVHA*/
