@@ -1,11 +1,21 @@
-h1,
+/*universal selector no inheritance envolved*/
+/* *{
+
+} */
+body {
+  font-family: sans-serif;
+  color: #444;
+}
+
+/* removing below one beacuse now from body we can inherit*/
+/* h1,
 h2,
 h3,
 p,
 li {
   font-family: sans-serif;
   color: #444;
-}
+} */
 h1,
 h2,
 h3 {
@@ -112,3 +122,17 @@ a:active {
   font-style: italic;
 }
 /*LVHA*/
+
+/* Resolving conflicts*/
+#copyright {
+  color: red;
+}
+.copyright {
+  color: blue;
+}
+.text {
+  color: yellow;
+}
+footer p {
+  /* color: green; !important */
+}
