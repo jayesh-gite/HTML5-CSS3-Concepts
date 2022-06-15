@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: sans-serif;
@@ -11,6 +12,7 @@ body {
 }
 .main-header {
   background-color: #cecece;
+  /* background-color: #cecece; */
   /* padding: 20px;
   padding-left: 40px;
   padding-right: 40px; */
@@ -21,10 +23,13 @@ body {
 aside {
   background-color: #ebe8e8;
   border: 5px solid #1098ad;
+  border-left: none;
+  border-right: none;
   /* padding-top: 50px;
   padding-right: 50px; */
-  padding: 50px 0px;
+  padding: 50px 40px;
   width: 500px;
+  /* box-sizing: border-box; */
 }
 
 /* removing below one beacuse now from body we can inherit*/
@@ -60,6 +65,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 40px;
 }
 p {
   font-size: 22px;
@@ -118,6 +124,7 @@ article header p {
 
 .li-style {
   list-style: none;
+  margin-left: 0;
 }
 
 /* .first-li {
@@ -175,7 +182,7 @@ footer p {
    color: green; !important 
 } */
 .container {
-  width: 800px;
+  width: 1200px;
   /*
   margin-left: auto;
   margin-right: auto; */
@@ -232,4 +239,42 @@ h2::after {
   right: -25px;
   color: #444;
   position: absolute;
+}
+
+/* FLOATS */
+
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+.author {
+  /* padding-left: 80px; */
+  margin-left: 20px;
+  margin-top: 10px;
+  float: left;
+}
+
+h1 {
+  float: left;
+}
+nav {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+
+article {
+  /* background-color: green; */
+  width: 825px;
+  float: left;
+}
+aside {
+  /* background-color: aquamarine; */
+  width: 300px;
+  float: right;
+}
+footer {
+  /* background-color: blueviolet; */
+  clear: both;
 }
